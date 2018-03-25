@@ -1,0 +1,70 @@
+html, body {
+	margin: 0px
+	height: 100%;
+}
+
+div {
+	margin: 0px;
+	height: 100%;
+}
+
+.mainContent {
+	width: 100%;
+}
+
+/****** Nav *****/
+
+#headShot {
+	width: 200px;
+	height: 250px;	
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:30px;
+	margin-bottom: 10px;
+}
+
+.nav {
+	height:100%;
+	width:400px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+#navSection {
+	text-align: center;
+}
+
+.buttons {
+	text-align: center;
+}
+
+#navButtons {
+	list-style: none;
+	text-align: center;
+	padding: 0px;
+}
+
+ul#navButtons li {
+	margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	width:100px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 3px;
+	
+}
+
+ul#navButtons li:hover {
+
+}
+
+
+.mainContent {
+	margin-left: 400px;
+}
