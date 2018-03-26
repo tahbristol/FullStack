@@ -1,6 +1,12 @@
 html, body {
 	margin: 0px
 	height: 100%;
+	overflow-x: hidden;
+
+}
+
+ul {
+	list-style: none
 }
 
 div {
@@ -31,10 +37,13 @@ div {
 	top: 0;
 	left: 0;
 	overflow-x: hidden;
+	overflow-y: hidden;
 	padding-top: 20px;
+	border-right: 1px solid black;
 }
 #navSection {
 	text-align: center;
+	
 }
 
 .buttons {
@@ -64,7 +73,20 @@ ul#navButtons li:hover {
 
 }
 
+/***** Main *****/
 
+div#welcome h1 {
+	margin-left:25%;
+	margin-top: 200px;
+}
+
+div#welcome p {
+	width: 30%;
+	margin-left:20%
+}
 .mainContent {
+	position:absolute;
+	max-width:100%;
 	margin-left: 400px;
+	overflow-x: hidden;
 }
