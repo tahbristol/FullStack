@@ -2,7 +2,7 @@ html, body {
 	margin: 0px
 	height: 100%;
 	overflow-x: hidden;
-
+	
 }
 
 ul {
@@ -12,6 +12,7 @@ ul {
 div {
 	margin: 0px;
 	height: 100%;
+	max-width: 1500px;
 }
 
 .mainContent {
@@ -76,17 +77,23 @@ ul#navButtons li:hover {
 /***** Main *****/
 
 div#welcome h1 {
-	margin-left:25%;
+
 	margin-top: 200px;
 }
 
 div#welcome p {
-	width: 30%;
-	margin-left:20%
+	
+
 }
 .mainContent {
 	position:absolute;
 	max-width:100%;
-	margin-left: 400px;
+	margin-left: 200px;
 	overflow-x: hidden;
+}
+
+/***** Works *****/
+
+div#works {
+	text-align: center;
 }
